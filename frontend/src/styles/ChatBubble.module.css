@@ -1,0 +1,38 @@
+p {
+  color: var(--receiver-message);
+  font-size: x-small;
+  margin-bottom: 4px;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.senderUsername {
+  align-self: flex-end;
+}
+
+.guestUsername {
+  align-self: flex-start;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.senderMessage {
+  display: inline-block;
+  align-self: flex-end;
+  background-color: var(--sender-message);
+  color: white;
+  text-align: right;
+}
+
+.guestMessage {
+  align-self: flex-start;
+  background-color: var(--reciever-message);
+}

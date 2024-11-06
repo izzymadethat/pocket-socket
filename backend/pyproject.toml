@@ -1,0 +1,12 @@
+[project]
+name = "ps-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9.4"
+dependencies = [
+    "flask>=3.0.3",
+    "flask-socketio>=5.4.1",
+    "py-mon>=2.0.5",
+    "python-dotenv>=1.0.1",
+]

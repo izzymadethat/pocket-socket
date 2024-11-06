@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --sender-message: #218aff;
+  --receiver-message: #d8d8d8;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
